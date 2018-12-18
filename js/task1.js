@@ -26,7 +26,7 @@ function evaluateResearches(arr) {
 function groupingTheBestResults(arr) {
   var groupOfTheBestResults = [];
   for (var i = 0; i < arr.length; i++) {
-    if (theBestResult == arr[i]) {
+    if (theBestResult === arr[i]) {
       groupOfTheBestResults.push(i + 1);
     }
   }

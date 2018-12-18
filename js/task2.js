@@ -26,7 +26,7 @@ var theCar = {
   amountOfFuel: Math.random(),
   checkFuel: function() {
     if (this.amountOfFuel < 0.7) {
-      console.log("Car want eat!))");
+      console.log("Car want to eat!))");
     } else {
       console.log("Car is full!");
     }
