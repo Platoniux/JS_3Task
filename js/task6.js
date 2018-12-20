@@ -1,6 +1,6 @@
 /*Task 6*/
 
-var forComparing = [5, true, 87, false, "hello", 54];
+var forComparing = [5, true, 87, false, 'hello', 54];
 
 returnTheBiggestValue(forComparing);
 

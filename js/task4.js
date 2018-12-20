@@ -1,6 +1,6 @@
 /*Task 4*/
 
-var randomArray = [5, 6, 9, "hello world", true];
+var randomArray = [5, 6, 9, 'hello world', true];
 
 randomArray.sort(shakeArray);
 console.log(randomArray);

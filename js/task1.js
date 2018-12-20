@@ -14,13 +14,13 @@ groupingTheBestResults(resultOfResearches);
 function evaluateResearches(arr) {
   theBestResult = arr[0];
   for (var i = 0; i < arr.length; i++) {
-    console.log("Образец под номером " + (i + 1) + " - рузультат - " + arr[i]);
+    console.log('Образец под номером ' + (i + 1) + ' - рузультат - ' + arr[i]);
     if (arr[i] > theBestResult) {
       theBestResult = arr[i];
     }
   }
-  console.log("Всего проведено исследований: " + i);
-  console.log("Наилучший результат: " + theBestResult);
+  console.log('Всего проведено исследований: ' + i);
+  console.log('Наилучший результат: ' + theBestResult);
 }
 
 function groupingTheBestResults(arr) {
@@ -30,7 +30,7 @@ function groupingTheBestResults(arr) {
       groupOfTheBestResults.push(i + 1);
     }
   }
-  console.log("Образцы с наилучшими результатами под номерами: " + groupOfTheBestResults);
+  console.log('Образцы с наилучшими результатами под номерами: ' + groupOfTheBestResults);
 }
 
 
